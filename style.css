@@ -1,0 +1,233 @@
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
+
+  #sidebar{
+    margin-bottom: 40px;
+  }
+
+  .one-fourth {
+    width: 23.5%;
+    max-width: 220px;
+    display: inline;
+    float: left;
+    margin-right: 2%;
+}
+
+#sidebar .widget {
+    margin-bottom: 30px;
+}
+
+#sidebar h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.333em;
+    line-height: 1.375em;
+    margin-bottom: 15px;
+    
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    
+}
+
+nav{
+    display: block;
+    
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+ul {
+    list-style: none;
+}
+.widget ul.menu li {
+    
+    border-bottom: 1px dotted #ccc;
+}
+
+.widget ul.menu li > a {
+    display: block;
+    color: #383838;
+    padding: 5px 0 5px 11px;
+    background: url(images/arrow-right.png) no-repeat left 0.833em;
+}
+.widget ul.menu li > a:hover, .widget ul.menu li.current-menu-item > a
+{
+    color: #1693a5;
+}
+
+#footer {
+    color: #999;
+    background-color: #383838;
+    border-top: 5px solid #e5e5e5;
+    margin-top: 10px;
+        
+
+}
+#footer-top {
+    overflow: hidden;
+    padding: 36px 0 20px;
+    
+}
+.widget {
+    margin-bottom: 20px;
+}
+.one-third {
+    width: 32%;
+    max-width: 300px;
+    display: inline;
+    float: left;
+    margin-right: 2%;
+    margin-left: 7%;
+}
+p {
+    margin-bottom: 20px;
+}
+#footer-bottom {
+    overflow: hidden;
+    padding: 25px 0;
+    border-top: 1px solid #4c4c4c;
+    font-size: 0.916em;
+}
+#footer-bottom a {
+    color: #bfbfbf;
+}
+.social-links li {
+    float: left;
+    margin: 0 6px 6px 0;
+}
+.social-links li.twitter a {
+    background-image: url(images/twitter-circular.png);
+}
+.social-links li.facebook a {
+    background-image: url(images/facebook-circular.png);
+}
+.social-links li.linkedin a {
+    background-image: url(images/linkedin.png);
+}
+.social-links a {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    text-indent: -10000em;
+}
+.column-last1 {
+    margin-right: 0 !important;
+    margin-left: 300px;
+}
+
+.social-links ul {
+    overflow: hidden;
+    margin-right: -6px;
+    list-style: none;
+}
